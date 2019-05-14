@@ -10,6 +10,7 @@
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
 
     <application
         android:allowBackup="true"
@@ -18,7 +19,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".ServiceProvActivity"></activity>
+        <activity android:name=".TaxiLoginActivity" />
+        <activity android:name=".VehRepCentrLoginActivity" />
+        <activity android:name=".ResVehLoginActivity" />
+        <activity android:name=".UserServActivity" />
+        <activity android:name=".MainActivity" />
 
         <service
             android:name=".onAppKilled"

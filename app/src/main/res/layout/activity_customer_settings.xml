@@ -1,42 +1,56 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="com.helpme.helpmenew.CustomerSettingsActivity"
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout
+    android:padding="20sp"
     android:orientation="vertical"
-    android:padding="20sp">
+    tools:context="com.helpme.helpmenew.CustomerSettingsActivity"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/index">
+
     <ImageView
-        android:layout_width="100sp"
         android:layout_height="100sp"
-        android:id="@+id/profileImage"
+        android:layout_width="100sp"
+        android:layout_marginBottom="80sp"
         android:src="@mipmap/ic_default_user"
-        android:layout_marginBottom="20sp"/>
+        android:id="@+id/profileImage"
+        android:layout_marginStart="90dp"
+        android:layout_marginLeft="90dp" />
+
     <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="30sp"
         android:id="@+id/name"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@null"
         android:hint="Name"
-        android:layout_marginBottom="20sp"/>
-    <EditText
-        android:id="@+id/phone"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:background="@null"
+        android:drawableLeft="@drawable/persn"/>
+
+    <EditText android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="30sp"
+        android:id="@+id/phone"
         android:hint="Phone"
-        android:layout_marginBottom="20sp"
-        android:inputType="number"/>
+        android:background="@null"
+        android:inputType="number"
+        android:drawableLeft="@drawable/phone"/>
+
     <Button
-        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_width="match_parent"
         android:id="@+id/confirm"
-        android:text="confirm"/>
+        android:text="confirm"
+        android:background="@drawable/buttonregister"
+        android:layout_marginBottom="30sp"/>
+
     <Button
-        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_width="match_parent"
         android:id="@+id/back"
-        android:text="back"/>
+        android:text="back"
+        android:background="@drawable/buttonrectanglepink" />
 
 </LinearLayout>

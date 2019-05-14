@@ -19,24 +19,39 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/buttons">
+
+            <ImageButton
+                android:id="@+id/call"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/bell" />
+
             <Button
                 android:layout_weight="1"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:id="@+id/logout"
-                android:text="logout"/>
+                android:text="logout"
+                android:background="@color/cyan_500"/>
             <Button
                 android:layout_weight="1"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:id="@+id/history"
-                android:text="history"/>
+                android:text="history"
+                android:background=" #ffd699"/>
             <Button
                 android:layout_weight="1"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:id="@+id/settings"
-                android:text="Settings"/>
+                android:text="Settings"
+                android:background="#e6b3ff"/>
+
+
+
         </LinearLayout>
 
         <android.support.v7.widget.CardView
@@ -119,26 +134,35 @@
                 <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="UberX"
-                    android:id="@+id/UberX"/>
+                    android:id="@+id/mech"
+                    android:text="MECH"
+
+                    />
                 <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="UberBlack"
-                    android:id="@+id/UberBlack"/>
+                    android:text="VEHREP"
+                    android:id="@+id/vehrep" />
                 <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="UberXl"
-                    android:id="@+id/UberXl"/>
+                    android:id="@+id/resveh"
+                    android:text="RESVEH"
+                   />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/taxi"
+                    android:text="TAXI"/>
             </RadioGroup>
 
             <Button
                 android:layout_gravity="bottom"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="call Uber"
-                android:id="@+id/request"/>
+                android:text="HelpMe"
+                android:id="@+id/request"
+                android:background="@drawable/buttoncallme" />
         </LinearLayout>
     </LinearLayout>
 

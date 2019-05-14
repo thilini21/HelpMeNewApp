@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ServiceProvActivity"
+    android:orientation="vertical"
+    android:background="@drawable/index">
+
+    <ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:src="@drawable/logoo"
+        android:contentDescription="TODO"
+        android:id="@+id/logoo"
+        />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Services..."
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginBottom="40dp"
+        android:scaleType="center"
+        android:textStyle="italic"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:fontFamily="sans-serif-black"
+        android:id="@+id/topic"/>
+
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp">
+
+        <Button
+            android:id="@+id/mechBtn"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="43dp"
+            android:layout_marginBottom="40dp"
+            android:background="@drawable/buttonregister"
+            android:scaleType="center"
+            android:text="Mechanic"
+           />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp">
+
+        <Button
+            android:id="@+id/vehrepcBtn"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="43dp"
+            android:layout_marginBottom="40dp"
+            android:background="@drawable/buttonregister"
+            android:scaleType="center"
+            android:text="Vehicle Repairing Centre" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="360dp"
+        >
+
+        <Button
+            android:id="@+id/resvehsBtn"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="43dp"
+            android:layout_marginBottom="40dp"
+            android:background="@drawable/buttonregister"
+            android:scaleType="center"
+            android:text="Rescue Vehicle" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="410dp">
+
+        <Button
+            android:id="@+id/taxisBtn"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="38dp"
+            android:layout_marginRight="43dp"
+            android:layout_marginBottom="40dp"
+            android:background="@drawable/buttonregister"
+            android:scaleType="center"
+            android:text="Taxi Service" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

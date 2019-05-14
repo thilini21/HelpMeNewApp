@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserServActivity"
+    android:orientation="vertical"
+    android:background="#d6d6c2">
+
+    <ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:src="@drawable/logoo"
+        android:contentDescription="TODO"
+        android:id="@+id/logoo"
+        />
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="CHOOSE SERVICE..."
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginBottom="40dp"
+        android:scaleType="center"
+        android:textStyle="italic"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:fontFamily="sans-serif-black"/>
+
+    <RelativeLayout
+
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="150dp"
+        >
+
+        <ImageView
+            android:id="@+id/biton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginBottom="40dp"
+            android:scaleType="center"
+            android:src="@drawable/biton" />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="Service Provider"
+            android:layout_marginTop="150dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginBottom="40dp"
+            android:scaleType="center"
+            android:textStyle="italic"
+            android:textSize="15sp"
+            android:textColor="#008ae6"
+            android:fontFamily="sans-serif-medium"/>
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_centerHorizontal="true"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_marginTop="310dp">
+
+        <ImageView
+            android:id="@+id/bellcon"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:src="@drawable/bellcon"
+            android:layout_marginLeft="0dp"
+            android:layout_marginBottom="40dp"
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="User"
+            android:layout_marginTop="115dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginBottom="40dp"
+            android:scaleType="center"
+            android:textStyle="italic"
+            android:textSize="15sp"
+            android:textColor="#008ae6"
+            android:fontFamily="sans-serif-medium"/>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
